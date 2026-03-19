@@ -1,0 +1,168 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "nombre": "Admin General",
+      "email": "admin@univo.edu",
+      "password": "admin123",
+      "rol": "admin",
+      "area": null,
+      "activo": true
+    },
+    {
+      "id": 2,
+      "nombre": "Encargado Arte/Cultura",
+      "email": "artecultura@univo.edu",
+      "password": "arte123",
+      "rol": "encargado",
+      "area": "Arte y Cultura",
+      "activo": true
+    },
+    {
+      "id": 3,
+      "nombre": "Encargado Danza",
+      "email": "danza@univo.edu",
+      "password": "danza123",
+      "rol": "encargado",
+      "area": "Danza",
+      "activo": true
+    },
+    {
+      "id": 4,
+      "nombre": "Encargado Deporte",
+      "email": "deporte@univo.edu",
+      "password": "deporte123",
+      "rol": "encargado",
+      "area": "Deporte",
+      "activo": true
+    },
+    {
+      "id": 5,
+      "nombre": "Encargado Pintura",
+      "email": "pintura@univo.edu",
+      "password": "pintura123",
+      "rol": "encargado",
+      "area": "Pintura",
+      "activo": true
+    }
+  ],
+  "estudiantes": [
+    {
+      "carnet": "20230728",
+      "nombre": "Patricia Marisol Lazo Campos",
+      "sexo": "F",
+      "area": "Solistas - Cantantes",
+      "carrera": "Ing.Desarrollo Software",
+      "anio": 4,
+      "telefono": "74246343",
+      "email": "marisollazo253@gmail.com",
+      "residencia": "San Miguel",
+      "fechaIngreso": "2026-03-16",
+      "becado": true,
+      "horasSociales": 1,
+      "notas": "Becada Por arte y Cultura",
+      "activo": true,
+      "id": 1
+    }
+  ],
+  "asistencias": [
+    {
+      "id": 1,
+      "estudianteId": 1,
+      "fecha": "2026-03-16",
+      "area": "Solistas - Cantantes",
+      "actividadId": null,
+      "estado": "Presente",
+      "notas": "",
+      "fotos": []
+    }
+  ],
+  "actividades": [
+    {
+      "titulo": "scsdncjsdncjisd",
+      "tipo": "Reunión",
+      "area": "Solistas - Cantantes",
+      "fecha": "2026-03-16",
+      "hora": "00:00",
+      "lugar": "Auditorio",
+      "subarea": "",
+      "tipoPartido": "",
+      "comentarios": "nxjasxasxn",
+      "id": 1
+    }
+  ],
+  "presentaciones": [
+    {
+      "titulo": "Festival",
+      "area": "Solistas - Cantantes",
+      "fecha": "2026-03-16",
+      "lugar": "Auditorio",
+      "encargado": "Ing.Julio",
+      "horaSalida": "09:00",
+      "horaRegreso": "",
+      "grupo": "Solista",
+      "estado": "En Curso",
+      "recursosLlevados": [
+        {
+          "nombre": "",
+          "estadoSalida": "Bueno",
+          "estadoRegreso": ""
+        },
+        {
+          "nombre": "",
+          "estadoSalida": "Bueno",
+          "estadoRegreso": ""
+        }
+      ],
+      "documentoPdf": "/uploads/presentaciones/1773699466493-366216.pdf",
+      "imagenes": [
+        "/uploads/presentaciones/1773699480345-383817.png",
+        "/uploads/presentaciones/1773699480403-663774.jpeg",
+        "/uploads/presentaciones/1773699480406-329889.jpeg"
+      ],
+      "notas": "",
+      "id": 1
+    }
+  ],
+  "prestamos": [],
+  "recursos": [
+    {
+      "codigo": "GU-23",
+      "nombre": "Termo",
+      "area": "Solistas - Cantantes",
+      "tipo": "Musical",
+      "estado": "Bueno",
+      "descripcion": "",
+      "cantidad": 1,
+      "fotos": [],
+      "activo": true,
+      "id": 1
+    }
+  ],
+  "permisos": [
+    {
+      "solicitante": "Marisol Lazo",
+      "area": "Solistas - Cantantes",
+      "tipo": "Permiso de Presentación",
+      "actividad": "Festival",
+      "fechaInicio": "2026-03-16",
+      "fechaFin": "2026-03-16",
+      "motivo": "saldra a cantar",
+      "estado": "Aprobado",
+      "aprobadoPor": "Ing.Marisol",
+      "notas": "Aprobe su permiso",
+      "id": 1
+    }
+  ],
+  "reportes": [],
+  "nextIds": {
+    "users": 6,
+    "estudiantes": 2,
+    "asistencias": 2,
+    "actividades": 2,
+    "presentaciones": 2,
+    "prestamos": 1,
+    "recursos": 2,
+    "permisos": 2
+  }
+}
