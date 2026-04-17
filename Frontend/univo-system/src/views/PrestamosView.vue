@@ -77,6 +77,7 @@
     </div>
 
     <!-- Modal form -->
+     <Teleport to="body">
     <div v-if="showModal" class="modal-overlay" @click.self="showModal=false">
       <div class="modal">
         <div class="modal-header">
@@ -128,6 +129,7 @@
         </div>
       </div>
     </div>
+    </Teleport>
 
     <!-- Modal devolución -->
     <div v-if="showDev" class="modal-overlay" @click.self="showDev=false">

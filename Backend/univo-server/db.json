@@ -52,17 +52,23 @@
       "nombre": "Patricia Marisol Lazo Campos",
       "sexo": "F",
       "area": "Solistas - Cantantes",
-      "carrera": "Ing.Desarrollo Software",
-      "anio": 4,
-      "telefono": "74246343",
-      "email": "marisollazo253@gmail.com",
+      "fechaNacimiento": "2005-03-29",
+      "direccionNacimiento": "San Miguel",
       "residencia": "San Miguel",
-      "fechaIngreso": "2026-03-16",
+      "telefono": "74246343",
+      "email": "marisollazo@gmail.com",
+      "facultad": "Facultad de Ingeniería y Arquitectura",
+      "carrera": "Ingeniería en Desarrollo de Software",
+      "anioIngreso": 2023,
+      "fechaIngreso": "2023-03-30",
       "becado": true,
-      "horasSociales": 1,
-      "notas": "Becada Por arte y Cultura",
+      "institucionBeca": "Univo",
+      "tipoBeca": "Beca completa",
+      "descripcionBeca": "",
+      "horasSociales": 0,
+      "notas": "",
       "activo": true,
-      "id": 1
+      "id": 2
     }
   ],
   "asistencias": [
@@ -141,28 +147,67 @@
   ],
   "permisos": [
     {
-      "solicitante": "Marisol Lazo",
-      "area": "Solistas - Cantantes",
+      "solicitante": "Patricia",
+      "area": "Solistas - Violinistas",
       "tipo": "Permiso de Presentación",
       "actividad": "Festival",
-      "fechaInicio": "2026-03-16",
-      "fechaFin": "2026-03-16",
-      "motivo": "saldra a cantar",
+      "fechaInicio": "2026-04-14",
+      "fechaFin": "2026-04-14",
+      "motivo": "tocar en evento de alcaldia",
       "estado": "Aprobado",
       "aprobadoPor": "Ing.Marisol",
-      "notas": "Aprobe su permiso",
-      "id": 1
+      "notas": "sdnjndk sd",
+      "id": 3
+    },
+    {
+      "solicitante": "Marisol Patricia ",
+      "area": "Solistas - Cantantes",
+      "tipo": "Permiso de Presentación",
+      "actividad": "Festival del maiz ",
+      "fechaInicio": "2026-04-14",
+      "fechaFin": "2026-04-14",
+      "motivo": "La cantante no podra asistir por motivos de presentacion",
+      "estado": "Aprobado",
+      "aprobadoPor": "Ing.Marisol",
+      "notas": "",
+      "id": 4
+    },
+    {
+      "solicitante": "Javier ",
+      "area": "Fútbol 11",
+      "tipo": "Permiso de Presentación",
+      "actividad": "Torneo deportivo",
+      "fechaInicio": "2026-04-14",
+      "fechaFin": "2026-04-14",
+      "motivo": "torneo deportivo en quelepa",
+      "estado": "Aprobado",
+      "aprobadoPor": "Lic.Perla",
+      "notas": "",
+      "id": 5
+    },
+    {
+      "solicitante": "Cristal",
+      "area": "Fútbol Sala",
+      "tipo": "Permiso de Presentación",
+      "actividad": "Torneo",
+      "fechaInicio": "2026-04-14",
+      "fechaFin": "2026-04-14",
+      "motivo": "Ira a competir a un torneo",
+      "estado": "Aprobado",
+      "aprobadoPor": "Lic.Perla",
+      "notas": "",
+      "id": 6
     }
   ],
   "reportes": [],
   "nextIds": {
     "users": 6,
-    "estudiantes": 2,
+    "estudiantes": 3,
     "asistencias": 2,
     "actividades": 2,
     "presentaciones": 2,
     "prestamos": 1,
     "recursos": 2,
-    "permisos": 2
+    "permisos": 7
   }
 }

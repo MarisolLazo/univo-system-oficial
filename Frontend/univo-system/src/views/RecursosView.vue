@@ -49,6 +49,7 @@
     </div>
 
     <!-- Modal -->
+     <Teleport to="body">
     <div v-if="showModal" class="modal-overlay" @click.self="showModal=false">
       <div class="modal">
         <div class="modal-header"><h3 class="modal-title">{{ editing?'Editar':'Nuevo' }} Recurso</h3><button @click="showModal=false" class="modal-close">✕</button></div>
@@ -89,6 +90,7 @@
         </div>
       </div>
     </div>
+    </Teleport>
 
     <div v-if="showConfirm" class="modal-overlay" @click.self="showConfirm=false">
       <div class="modal" style="max-width:340px">

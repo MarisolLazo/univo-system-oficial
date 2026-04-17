@@ -59,6 +59,7 @@
     </div>
 
     <!-- Modal form -->
+     <Teleport to="body">
     <div v-if="showModal" class="modal-overlay" @click.self="showModal=false">
       <div class="modal" style="max-width:600px">
         <div class="modal-header">
@@ -74,7 +75,6 @@
             <label class="form-label">Tipo *</label>
             <select v-model="form.tipo" class="form-control">
               <option>Ensayo</option>
-              <option>Práctica Deportiva</option>
               <option>Taller</option>
               <option>Reunión</option>
               <option>Evento Cultural</option>
@@ -99,13 +99,7 @@
             <input v-model="form.lugar" type="text" class="form-control" placeholder="Cancha, sala, auditorio..."/>
           </div>
           <!-- Tipo de ensayo si es Arte/Danza -->
-          <div class="form-group" v-if="form.tipo==='Ensayo'">
-            <label class="form-label">Subárea del ensayo</label>
-            <select v-model="form.subarea" class="form-control">
-              <option value="">— Seleccionar —</option>
-              <option v-for="a in areasOpts" :key="a">{{ a }}</option>
-            </select>
-          </div>
+
           <!-- Tipo partido si es Práctica Deportiva -->
           <div class="form-group" v-if="form.tipo==='Práctica Deportiva'">
             <label class="form-label">Tipo de partido</label>
@@ -128,6 +122,7 @@
         </div>
       </div>
     </div>
+    </Teleport>
 
     <!-- Confirm -->
     <div v-if="showConfirm" class="modal-overlay" @click.self="showConfirm=false">

@@ -43,6 +43,7 @@
     </div>
 
     <!-- Modal form -->
+     <Teleport to="body">
     <div v-if="showModal" class="modal-overlay" @click.self="showModal=false">
       <div class="modal" style="max-width:680px">
         <div class="modal-header">
@@ -116,7 +117,7 @@
         </div>
       </div>
     </div>
-
+</Teleport>
     <!-- Modal detalle -->
     <div v-if="showDetalle && detalleP" class="modal-overlay" @click.self="showDetalle=false">
       <div class="modal" style="max-width:600px">
